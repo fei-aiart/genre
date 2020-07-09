@@ -1,2 +1,5 @@
-# SAND
-SAND for sketch portrait generation
+# About
+
+Portrait Drawing Generation
+- Pencil-Drawing
+- Pen-Drawing
