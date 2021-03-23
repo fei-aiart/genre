@@ -1,0 +1,2 @@
+cufs||list_train.txt||list_test.txt||250||200
+apdrawing||APDrawingDB_train.txt||APDrawingDB_test.txt||512||512
