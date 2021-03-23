@@ -39,7 +39,7 @@ Synthesised sketches for faces in-the-wild: (a) input photo, (b) FSS-NST, (c) Cy
 
 ![](imgs/ffhq.jpg)
 
-Synthesised sketches for faces in the FFHQ dataset: (a) input photo, (b) FSS-NST, (c) CycleGAN, (d) Pix2Pix, (e) SSL-FSS, (f) GauGAN, (g) SCA-GAN, and (h) GENRE.
+Synthesised sketches for faces in the CelebA-HQ dataset: (a) input photo, (b) FSS-NST, (c) CycleGAN, (d) Pix2Pix, (e) SSL-FSS, (f) GauGAN, (g) SCA-GAN, and (h) GENRE.
 
 ## Prerequisites
 
