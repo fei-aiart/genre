@@ -100,6 +100,18 @@ In our work,facial parsing is segmented by method in Yu, Changqian, et al. "Bise
 * First,  we need to align, resize and crop face photos (and corresponding drawings) to 256x256 
 * Then,we use code in https://github.com/zllrunning/face-parsing.PyTorch to detect facial parsing for face photos and drawings. 
 
+## Demo
+
+<video width="480" height="270" controls>
+
+<source src="demo.mp4" type="video/mp4">
+
+</video>
+
+Our portrait drawing demos: (a) QR code of the applet of WeChat, (b) QR code of the Web API, (c)-(e) layouts of the applet of WeChat, and (f) picture of the drawing robot. Readers can try our demos by scanning the QR codes.
+
+![](imgs/demo.jpg)
+
 ## Citation
 
  If you use this code for your research, please cite our paper. 
