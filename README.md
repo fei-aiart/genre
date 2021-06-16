@@ -2,7 +2,7 @@
 
 > Face sketch synthesis, GANs, SPADE, image-to-image translation
 
-We provide `PyTorch` implementations for our  ICME2021 paper `GENRE`: 
+We provide `PyTorch` implementations for our  ICME2021 paper [`GENRE`](https://ieeexplore.ieee.org/abstract/document/9428348): 
 
 ```latex
 @InProceedings{Li2021GENRE,
@@ -14,7 +14,9 @@ year = {2021}
 }
 ```
 
-This project generates artistic portrait drawings (e.g. pencil-drawing) from face photos using a GAN-based model. You may find useful information in preprocessing steps.
+This project generates **artistic portrait drawings** (e.g. pencil-drawing) from face photos using a GAN-based model. You may find useful information in preprocessing steps.
+
+[`Paper@IEEE`](https://ieeexplore.ieee.org/abstract/document/9428348)   [`Code@Github`](https://github.com/fei-hdu/genre)   [`Project`](http://aiart.live/genre/) 
 
 ## Framework
 
@@ -95,10 +97,12 @@ Synthesised sketches for faces in the CelebA-HQ dataset: (a) input photo, (b) FS
 
 Face photos (and paired drawings) need to be aligned and have facial parsing. And facial parsing after alignment are needed in our code in training. 
 
-In our work,facial parsing is segmented by method in Yu, Changqian, et al. "Bisenet: Bilateral segmentation network for real-time semantic segmentation." *Proceedings of the European conference on computer vision (ECCV)*. 2018.
+In our work,facial parsing is segmented by method in [1]
 
 * First,  we need to align, resize and crop face photos (and corresponding drawings) to 256x256 
 * Then,we use code in https://github.com/zllrunning/face-parsing.PyTorch to detect facial parsing for face photos and drawings. 
+
+> [1] Yu, Changqian, et al. "**Bisenet**: Bilateral segmentation network for real-time semantic segmentation." *Proceedings of the European conference on computer vision (ECCV)*. 2018.
 
 ## Demo
 
